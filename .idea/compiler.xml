@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="UserManagement" />
+        <module name="PersnalLoan" />
+        <module name="Employee" />
+        <module name="Customer" />
+        <module name="EmployeeManagementSystem" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Customer" target="1.8" />
+      <module name="CustomerProject" target="1.8" />
+      <module name="Employee" target="1.8" />
+      <module name="EmployeeManagementSystem" target="1.8" />
+      <module name="PersnalLoan" target="1.8" />
+      <module name="SpringBootMapping" target="1.8" />
+      <module name="UserManagement" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Customer" options="-parameters" />
+      <module name="CustomerProject" options="-parameters" />
+      <module name="Employee" options="-parameters" />
+      <module name="EmployeeManagementSystem" options="-parameters" />
+      <module name="PersnalLoan" options="-parameters" />
+      <module name="SpringBootMapping" options="-parameters" />
+      <module name="UserManagement" options="-parameters" />
+    </option>
+  </component>
+</project>
